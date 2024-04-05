@@ -9,6 +9,7 @@ import PerDate from '../media/2024/bandera-2024.png'
 import logo from '../media/logo.png'
 
 
+
 function Evento({ titulo, imagen, fecha, finalizado, descripcion, redirect }) {
     return (
         <Col md={4} className="mb-4">

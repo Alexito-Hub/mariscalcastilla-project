@@ -1,6 +1,3 @@
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
 import owner from '../media/owner.jpg'
 
 import React from 'react';
@@ -50,18 +47,4 @@ function Footer() {
 export default Footer;
 
 
-
-function Footero() {
-  return (
-    <footer className="footer mt-auto py-3 bg-dark text-light">
-      <Container fluid>
-        <Row>
-            <Col className="text-center">
-                <p> . Todos los derechos reservados.</p>
-            </Col>
-        </Row>
-      </Container>
-    </footer>
-  );
-}
 
